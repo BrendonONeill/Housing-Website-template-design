@@ -1,0 +1,247 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* Colour */
+.colour-blue
+{
+    color: #0CBFF7;
+}
+.colour-white
+{
+    color: white;
+}
+
+nav
+{
+    background-color: #F7800A;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav-content
+{
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logodesign
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links-list
+{
+    display: flex;
+    list-style: none;
+    
+}
+
+.links
+{
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero
+{
+
+    min-height: 100vh;
+    background: url('../hero1.jpg');
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.hero-content
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo
+{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hero-sub
+{
+    font-style: italic;
+    border-bottom: 3px double white;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+.hero-button
+{
+    background-color: #0CBFF7;
+    padding: 0.5rem 1rem;
+    color: lightgrey;
+}
+
+
+.company-welcome
+{
+    padding-block: 10rem;
+    background-color: #0CBFF7;
+    color: white;
+}
+
+.card-options
+{
+    padding-block: 10rem;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+.cards-heading-section
+{
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+
+.card
+{
+    color: rgb(116, 116, 116);
+    box-shadow: 0 2px 1px 1px rgb(119, 119, 119);
+    
+}
+
+.middle-card
+{
+    background-color: #0CBFF7;
+    color: white;
+}
+
+
+.card h3
+{
+    font-weight: bold;
+    margin-block: 1rem 2rem;
+}
+
+.card p
+{
+    padding: 2rem;
+}
+
+.card-img-top
+{
+    max-width: 8rem;
+    height: 8rem;
+    padding-block: 2rem;
+}
+
+.btn-test
+{
+    background-color: #F7800A;
+    color: white;
+    font-size: 1rem;
+    padding: 0.7rem;
+    font-weight: 500;
+}
+
+.home-selection
+{
+    background-color: #0CBFF7;
+    padding-block: 10rem;
+}
+
+.selection-container
+{
+    border-bottom: 3px solid white;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 2rem;
+}
+
+
+
+
+.house
+{
+    background-image: url('/house.jpg');
+    background-color: #0000005d;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.villa
+{
+    background-image: url('/villa.jpg');
+    background-color: #0000005d;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.apartment
+{
+    background-image: url('/apartment.jpg');
+    background-color: #0000005d;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.img-scroll
+{
+
+margin-top: 8rem;
+width: 100%;
+height: 40vh;
+ background-image: url('/pexels-allyson-salness-8288962.jpg');
+ background-color: rgba(0,0,0,.6);
+ background-blend-mode: multiply;
+ background-size: cover;
+ background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.news-letter
+{
+    background-color: white;
+    width: 50%;
+    height: 30%;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.footer
+{
+    text-align: center;
+    min-height: 2rem;
+    background-color: #098fb8;
+    color: white;
+    margin-bottom: 0;
+}
